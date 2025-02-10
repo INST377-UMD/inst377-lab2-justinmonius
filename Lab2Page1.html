@@ -1,0 +1,56 @@
+<html>
+<head>
+    <title>Form</title>
+    <style>
+        body {
+            background-color: lightgreen;
+            font-family: monospace, arial;
+        }
+        .typeYourName {
+            background-color: aquamarine;
+            margin-top: 100px;
+            margin-bottom: 100px;
+            margin-left: 200px;
+            margin-right: 200px;
+            padding: 50px;
+            width: 50%;
+            height:400px;
+        }
+        label {
+            font-size: 20px;
+            font-weight: bold;
+    
+        }
+        input {
+            background-color: antiquewhite;
+            color: black;
+            width: 100%;
+            padding: 5px;
+            margin-top: 5px;
+        }
+        button {
+            background-color: grey;
+            color: white;
+            padding: 10px 14px;
+            border: none;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        button:hover {
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="typeYourName">
+        <h1>Type Your Name</h1>
+        <form action="Lab2Page2.html" method="POST">
+            <div class="input">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
